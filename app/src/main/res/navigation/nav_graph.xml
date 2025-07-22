@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.budgettracker.frag.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_addExpenseActivity"
+            app:destination="@id/addExpenseActivity" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_setBudgetActivity"
+            app:destination="@id/setBudgetActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/expenseHistoryFragment"
+        android:name="com.example.budgettracker.frag.ExpenseHistoryFragment"
+        android:label="Expense History"
+        tools:layout="@layout/fragment_expense_history" >
+        <action
+            android:id="@+id/action_expenseHistoryFragment_to_addExpenseActivity"
+            app:destination="@id/addExpenseActivity" />
+    </fragment>
+
+    <activity
+        android:id="@+id/addExpenseActivity"
+        android:name="com.example.budgettracker.AddExpenseActivity"
+        android:label="Add New Expense"
+        tools:layout="@layout/activity_add_expense" />
+    <activity
+        android:id="@+id/setBudgetActivity"
+        android:name="com.example.budgettracker.SetBudgetActivity"
+        android:label="Set Monthly Budget"
+        tools:layout="@layout/activity_set_budget" />
+</navigation>

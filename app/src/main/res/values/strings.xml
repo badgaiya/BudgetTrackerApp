@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Budget Tracker</string>
+
+
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Utilities</item>
+        <item>Rent</item>
+        <item>Entertainment</item>
+        <item>Shopping</item>
+        <item>Health</item>
+        <item>Education</item>
+        <item>Groceries</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="expense_categories_filter">
+        <item>All</item>
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Utilities</item>
+        <item>Rent</item>
+        <item>Entertainment</item>
+        <item>Shopping</item>
+        <item>Health</item>
+        <item>Education</item>
+        <item>Groceries</item>
+        <item>Other</item>
+    </string-array>
+</resources>
