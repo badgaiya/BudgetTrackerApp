@@ -1,0 +1,63 @@
+# BudgetTrackerApp
+
+
+Track your expenses, manage your budget, and gain insights into your spending with the **Budget Tracker App**. This intuitive Android application helps you stay on top of your finances and meet your financial goals.
+
+ ---
+
+## ✨ Features
+
+- **📊 Dashboard Overview**
+  Instant snapshot of your current month's budget, total expenses, and remaining balance.
+
+- **🧾 Expense Tracking**
+  Add expenses with details like amount, category, date, and notes.
+
+- **📅 Budget Setting**
+  Set and update your monthly budget to stay on track.
+
+- **📖 Expense History**
+  View a detailed list of all recorded expenses.
+
+- **🔍 Filtering Options**
+  Filter your history by category or custom date range to analyze spending patterns.
+
+- **🥧 Category-wise Insights**
+  A dynamic pie chart visualizes your spending across different categories.
+
+- **💾 Local Data Storage**
+  All data is securely stored using **Room** database on your device.
+
+ ---
+
+## 🛠️ Technologies Used
+
+- **Language**: Kotlin
+- **Architecture Components**:
+    - ViewModel (lifecycle-aware UI data)
+    - LiveData (observable data holders)
+    - Room Persistence Library (local DB)
+    - Navigation Component (fragment navigation)
+    - Kotlin Coroutines & Flow (async operations)
+    - View Binding & Data Binding
+- **UI/UX**:
+    - Material Design
+    - MPAndroidChart (for pie chart visualization)
+
+ ---
+
+## 🚀 Setup and Installation
+
+### 🔧 Prerequisites
+
+- Android Studio Arctic Fox or later
+- Android SDK 31+
+- Android device or AVD (emulator)
+
+### 📥 Installation Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/badgaiya/BudgetTrackerApp
+   cd BudgetTrackerApp
+
